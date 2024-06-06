@@ -93,6 +93,10 @@ spec:
                     description: FirstnameClaim is the name of the JWT claim containing
                       the user firstname.
                     type: string
+                  generic:
+                    description: Generic indicates weather or not the APIPortal authentication
+                      relies on Generic OIDC.
+                    type: boolean
                   groupsClaim:
                     description: GroupsClaim is the name of the JWT claim containing
                       the user groups.
